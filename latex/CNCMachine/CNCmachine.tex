@@ -1,0 +1,30 @@
+\documentclass[a4paper]{article}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{url}
+
+\begin{document}
+
+\title{Proposal: Prototype Printed Circuit Board CNC Machine}
+\author{Southampton Projects Group / Reuben Carter}
+\maketitle
+
+\section{Problem}
+
+One very difficult and frustrating part of building electronics, is printed circuit board manufacture. lead times when using a commercial services
+are usually very slow / expensive, and multiple redesigned boards are often required in the prototyping stage of a design/build if a prototype PCB 
+is defective. The solution is to manufacture PCB's in house. The standard industrial technique is to use a pattern mask and chemical etching process, usually with
+exposure of a masked light sensitive resist, and a ferric chloride etchant bath to remove copper. The problem with using this method is the chemical
+hazard, with the ferric chloride, which is extremely corrosive and readily stains, and the photo-resist solution. For prototyping and one time production, 
+this method is quite inefficient. Copper clad board must be cleaned, primed with photo-resist. a pattern must be burned into the resist with a UV light source.
+Finally the board can be etched with etchant and cleaned. The whole process may take hours for a single board, and requires specialist facilities to deal with 
+chemicals and UV light sources.
+
+\section{Idea}
+
+The CNC machine could provide a cleaner, fast manufacture technique suitable for single board (prototype) manufacture in a standard electronics lab, by cutting cad
+designs directly to copper board. The idea is to design a three axis motorized stage, which can position a cutting blade to cut traces onto the board. 
+The mechanical assembly must be able to hold, and precisely position both the copper board and the cutting element, while moving fast enough to produce 
+prototypes in a reasonable time. 
+
+\end{document}
