@@ -1,3 +1,6 @@
+# Build directory for CMake
+build/
+
 # LaTeX files that should be ignored
 *.aux
 *.glo
